@@ -10,19 +10,19 @@ A Linux package that helps resolve the Discord update issue.
 
 ```bash
 sudo mv update-discord /usr/bin/
-``
+```
 
 3. Make the script executable (if necessary):
 
 ```bash
 sudo chmod +x /usr/bin/update-discord
-``
+```
 
 4. Run the update script to check the version:
 
 ```bash
 sudo update-discord
-``
+```
 
 5. Launch Discord as usual.
 
@@ -38,22 +38,22 @@ If you prefer to build the program yourself:
 
 ```bash
 sudo apt-get install libjson-c-dev
-``
+```
 
 3. Compile the program:
 
 ```bash
 gcc -o update-discord update-discord.c -I/usr/include/cjson -lcjson
-``
+```
 
 4. Move the compiled binary to `/usr/bin`:
 
 ```bash
 sudo mv update-discord /usr/bin/
-``
+```
 
 5. Run the updater with:
 
 ```bash
 sudo update-discord
-``
+```
