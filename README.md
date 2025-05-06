@@ -1,7 +1,11 @@
 # discord-update
 
 A Linux package that helps resolve the Discord update issue.
+## Installation with install.sh
 
+```bash
+sudo ./install.sh
+```
 ## Installation
 
 1. Download the latest release file from the [Releases](https://github.com/muzammilshafique/discord-update/releases) page.
